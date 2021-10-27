@@ -1,0 +1,32 @@
+h1 {
+  text-align: center;
+  padding: 40px 0;
+  color: rgb(1, 86, 107);
+}
+
+label {
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+li {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+#imginternet {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  opacity: 30%;
+}
+
+#imgpc {
+  float: right;
+}
+a{
+  text-decoration: none;
+  color:rgb(1, 86, 107)
+
+}
