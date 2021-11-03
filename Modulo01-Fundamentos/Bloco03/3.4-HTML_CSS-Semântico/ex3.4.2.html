@@ -1,0 +1,193 @@
+<!--Para tal, criaremos uma página que apresenta um dos animais mais impressionantes que existem: o Stomatopoda. A estilização da página fica a seu critério. 😉
+1 - Adicione um cabeçalho na página contendo o título Soco a 80km/h: Conheça o Stomatopoda .
+2 - Adicione um conjunto de links que representam a área de navegação do site.
+Crie um link chamado Página Inicial .
+Crie um link chamado Sobre .
+Crie um link chamado Contato .
+3 - Crie um artigo que vai conter os fatos interessantes sobre o Stomatopoda . O artigo terá o subtítulo Fatos sobre o Stomatopoda . Segue um site animal de inspiração para pegar fatos.
+4 - Divida o artigo em seções, organizando-o da seguinte forma:
+Uma primeira seção contendo informações gerais a respeito do animal. O subtítulo para essa seção fica a seu critério. É necessário que conste nessa seção seu nome científico , que é Odontodactylus scyllarus , em itálico. Além disso, é preciso que haja informação tabular a respeito de sua classificação científica, em específico: Reino , Filo , Subfilo , Classe , Subclasse e Ordem . Tais informações você consegue obter na Wikipedia.
+As outras seções dizem respeito aos fatos interessantes que você escolheu acerca do animal. Para cada fato escolhido você vai criar uma seção.
+Adicione, para cada seção, um subtítulo referente ao fato escolhido.
+Adicione, para cada seção, parágrafo(s) descrevendo o fato escolhido. Destaque características impressionantes referentes ao fato que você escolheu, de forma a reforçar a unicidade do Stomatopoda . Por exemplo: se você criar uma seção detalhando o soco potente do animal, seria interessante destacar a velocidade desse soco (80km/h) em negrito.
+Adicione, para cada seção, uma imagem, como forma de ilustrar o fato.
+Adicione, por fim, uma seção de referências bibliográficas, contendo uma lista de todos os links que foram usados como base para compilar a página em questão.
+5 - Adicione um conteúdo adjacente ao artigo, disponibilizando um link para este vídeo, que mostra o animal em ação.
+
+***TODO O EXERCICIO FOI DESENVOLVIDO SEM ADAPTAÇÕES PARA RESPONSIVO***
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <html lang="pt-br">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style3.4.2.css" />
+    <title>Stomatopoda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 style="display:none;">Stomatopoda</h1>
+    <header>
+      <h1>Soco a 80km/h: Conheça o Stomatopoda</h1>
+      <nav>
+        <ul class="navbar-ul">
+          <li class="title-nav">Stomatopodas</li>
+          <li><a href="">Página Inicial</a></li>
+          <li><a href="">Sobre</a></li>
+          <li><a href="">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+
+      <article>
+        <h2>Fatos sobre o Stomatopoda</h2>
+        <div class="hr"></div>
+        <ul class="fatos">
+          <li>
+            Visão muito apurada e capaz de interpretar polarização no espectro
+            ultravioleta e infravermelho
+          </li>
+          <li>Apresentam uma grande variação de tamanho</li>
+          <li>Animais exclusivamente carnívoros</li>
+          <li>
+            Um golpe de uma garra de camarão mantis é tão forte que pode quebrar o
+            vidro do aquário
+          </li>
+        </ul>
+      </article>
+
+      <aside>
+          <table>
+            <tr>
+              <td><strong>Nome Científico</strong></td>
+              <td><em>Odontodactylus scyllarus</em></td>
+            </tr>
+            <tr>
+              <td><strong>Reino</strong></td>
+              <td>Animalia</td>
+            </tr>
+            <tr>
+              <td><strong>Filo</strong></td>
+              <td>Arthropoda</td>
+            </tr>
+            <tr>
+              <td><strong>Subfilo</strong></td>
+              <td>Crustacea</td>
+            </tr>
+            <tr>
+              <td><strong>Classe</strong></td>
+              <td>Malacostraca</td>
+            </tr>
+            <tr>
+              <td><strong>Subclasse</strong></td>
+              <td>Hoplocarida</td>
+            </tr>
+            <tr>
+              <td><strong>Ordem</strong></td>
+              <td>Stomatopoda</td>
+            </tr>
+          </table>
+          <br /><br /><br />
+      </aside>
+        <br /><br />
+      <section>
+        <article>
+            <div class="hr-section"></div>
+            <h3 class="h3-first">
+              Visão muito apurada e capaz de interpretar polarização no espectro
+              ultravioleta e infravermelho
+            </h3>
+            <img
+              class="img1"
+              src="https://cdn.noticias.ambientebrasil.com.br/wp-content/uploads/2019/12/olhos-visao-incrivel-camarao-mantis.jpg"
+              alt="olhos-visao-incrivel-camarao-mantis"
+              width="40%"
+            />
+            <p class="p1">
+              Esses animais possuem o mais complexo sistema de visão de cores do
+              mundo animal, pois enxergam 12 cores primárias, correspondentes aos 12
+              pigmentos distintos presentes em sua retina. <br />
+              O sistema de visão dos estomatópodes possui doze cones sensíveis à luz
+              e outros quatro que filtram a luz (16 cones no total), o que lhes
+              permite ver cores polarizadas e imagens multiespectrais.[6]
+            </p>
+    
+            <div class="clear"></div>
+            <br /><br /><br /><br />
+    
+            <h3 class="h3-second">Apresentam uma grande variação de tamanho</h3>
+            <img
+              class="img2"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStZmVUavnQacCvoHBcJ3FQfkPrJDlQhKZCFg&usqp=CAU"
+              alt="tamanho camarão"
+              width="33%"
+            />
+            <p class="p2">
+              Os Stomatopodas podem variar de tamando indo de poucos milímetros até
+              aproximadamente 40 cm nas espécies maiores.
+            </p>
+    
+            <div class="clear"></div>
+            <br /><br /><br /><br /><br /><br /><br />
+    
+            <h3 class="h3-third">Animais exclusivamente carnívoros</h3>
+            <img
+              class="img3"
+              src="https://4.bp.blogspot.com/-4BuxlCJVE5E/WrBhFCG1OmI/AAAAAAAAOcE/Kr0BR34TIIYI6XAA1FGxEvSH26IA3eR1ACLcBGAs/s1600/1.jpg"
+              alt="camarão carnivoros"
+              width="35%"
+            />
+            <p class="p3">
+              Os Stomatopodas alimentam-se de camarões, caranguejos, moluscos,
+              peixes e até mesmo outros da mesma ordem.
+            </p>
+    
+            <div class="clear"></div>
+            <br /><br /><br /><br /><br /><br /><br />
+    
+            <h3 class="h3-fourty">
+              Um golpe de uma garra de camarão mantis é tão forte que pode quebrar o
+              vidro do aquário
+            </h3>
+            <img
+              class="img4"
+              src="https://miro.medium.com/max/850/1*6XRrEDCsccVdrFLQSVT1zQ.jpeg"
+              alt="camarão-louva-a-deus-palhaço"
+              width="30%"
+            />
+            <p class="p4">
+              O camarão mantis é um crustáceo estomatópode, também conhecido como
+              tamarutaca, lacraia-do-mar, lagosta-boxeadora ou
+              camarão-louva-a-deus-palhaço. Dentre 400 espécies, o ‘Odontodactylus
+              scyllarus’ é o que desfere um golpe mais violento:
+              <strong>seu soco chega a 80 quilômetros por hora</strong>, aceleração
+              semelhante a uma arma calibre .22.
+            </p>
+    
+            <div class="clear"></div>
+            <br /><br /><br /><br /><br />
+    
+            <p class="saibamais">Saiba mais sobre os Stomatopodas:</p>
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/E0Li1k5hGBE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            >
+            </iframe>
+        </article>
+      </section>
+      </article>
+    </main>
+  </body>
+  <footer>
+    <strong>Conteúdo compilado por Bárbara Rocha, 2021</strong>
+  </footer>
+</html>
