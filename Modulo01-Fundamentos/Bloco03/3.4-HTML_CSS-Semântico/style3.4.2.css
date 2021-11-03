@@ -1,0 +1,164 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+  justify-content: space-between;
+  position: fixed;
+  background-color: rgb(0, 65, 0);
+  width: 100%;
+  top: 0;
+  left: 0;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.navbar-ul li {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  padding: 8px 30px;
+}
+
+.navbar-ul {
+  display: flex;
+  margin-left: 40%;
+  letter-spacing: 3px;
+  align-items: center;
+}
+
+.navbar-ul a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+}
+.navbar-ul a:hover {
+  border-radius: 8px;
+  background-color: rgba(176, 252, 176, 0.301);
+  padding: 5px 5px;
+}
+.title-nav {
+  font-size: 30px;
+  position: relative;
+  right: 65%;
+}
+
+
+h1 {
+  margin:130px 0 90px 0;;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hr {
+  height: 180px;
+  width: 7px;
+  background-color: rgb(0, 65, 0);
+  float: left;
+  margin: 0 15px 0 150px;
+}
+
+.fatos li {
+  list-style: none;
+}
+
+.fatos {
+  line-height: 45px;
+}
+
+h2 {
+  padding-left: 300px;
+}
+table {
+  float: right;
+  display: table;
+  margin: -230px 100px;
+}
+
+td {
+  padding: 5px 10px;
+  border: solid 1px black;
+}
+
+section {
+  clear: both;
+}
+
+h3 {
+  text-align: center;
+  width: 50%;
+  line-height: 30px;
+}
+
+.h3-first {
+  margin-left: 3%;
+}
+
+.img1 {
+  float: right;
+  margin: -80px 50px 0 30px;
+}
+
+.p1 {
+  text-align: justify;
+  line-height: 30px;
+  margin-left: 30px;
+}
+
+.clear {
+  clear: both;
+}
+
+.h3-second {
+  margin-left: 40%;
+}
+
+.img2 {
+  float: left;
+  margin: -50px 50px;
+}
+
+.img3 {
+  float: right;
+  margin: -80px 50px;
+  width: 550px;
+  height: 250px;
+}
+
+.p3 {
+  text-align: justify;
+  line-height: 30px;
+  margin-left: 30px;
+}
+
+.h3-third {
+  margin-left: 5%;
+}
+
+.h3-fourty {
+  margin-left: 40%;
+}
+.img4 {
+  float: left;
+  margin: -80px 50px;
+  width: 480px;
+  height: 250px;
+}
+.p4 {
+  text-align: justify;
+  line-height: 30px;
+  margin-right: 50px;
+  
+}
+
+.saibamais{
+    font-size: 25px;
+    text-align: center;
+}
+iframe{
+    margin: 35px 30%;
+}
+footer{
+    text-align: center;
+    padding-top: 50px
+}
