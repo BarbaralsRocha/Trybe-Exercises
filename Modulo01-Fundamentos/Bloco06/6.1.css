@@ -1,0 +1,43 @@
+* {
+  background-color: black;
+}
+
+fieldset,
+label {
+  background-color: rgb(228, 227, 227);
+}
+
+fieldset {
+  width: 75%;
+  height: 75%;
+  margin: auto;
+  padding: 5%;
+}
+
+input,
+textarea,
+select {
+  background-color: rgb(245, 245, 245);
+}
+
+label {
+  padding: 10px;
+  font-size: 20px;
+}
+
+input,
+select {
+  margin: 10px;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+input,
+select {
+  text-align: center;
+  padding: 4px;
+  border-radius: 5px;
+  left: 100px;
+  width: 250px;
+  margin-left: 250px;
+}
