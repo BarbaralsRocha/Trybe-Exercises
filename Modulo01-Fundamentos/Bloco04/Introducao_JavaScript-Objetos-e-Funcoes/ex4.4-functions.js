@@ -84,7 +84,7 @@ REFAZEEEEEEEEEEER (ARRUMAR ULTIMA POSIÇÃO)
 function repeat(array){
     let comparacao = 1;
     let soma = 0;
-        for(let index = 0; index<array.length;index++){
+        for(let index = 0; index<=array.length;index++){
             if(array[index] == array[comparacao]){
                 soma++
             } 
@@ -94,7 +94,7 @@ function repeat(array){
         return soma
     }
         
-console.log(repeat([2, 3, 5, 5, 1, 5, 5]))
+console.log(repeat([2, 3, 5, 5, 1, 5, 1]))
 
 /* 6 - Crie uma função que receba um número inteiro N e retorne o somatório de todos os números de 1 até N.
 Valor de teste: N = 5 .
