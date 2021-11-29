@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: black;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.navbar {
+  max-height: 80px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  font-size: 15px;
+  background-color: rgb(56, 56, 56);
+  color: white;
+}
+
+p {
+  text-align: center;
+  padding: 50px;
+  font-size: 25px;
+}
+
+.poster {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.poster img {
+  width: 200px;
+  height: 290px;
+  padding: 5px;
+}
